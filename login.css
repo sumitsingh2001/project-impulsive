@@ -1,0 +1,46 @@
+* {
+  font-family: "poppins", sans-serif;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section {
+  width: 100%;
+  height: 100vh;
+}
+.login {
+  width: 25rem;
+  height: 15rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  flex-direction: column;
+}
+.login h2 {
+  color: #ffffff;
+  font-family: "poppins", sans-serif;
+  text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
+}
+.login input {
+  margin: 0.5rem 0;
+  border: none;
+  width: auto;
+  height: 1.6rem;
+  padding: 0 1rem;
+}
+.login :nth-last-child(1) {
+  width: auto;
+  height: 2rem;
+  background-color: royalblue;
+  /* padding: 0.5rem 1.3rem; */
+  font-weight: 600;
+  font-size: 1rem;
+  color: aliceblue;
+  align-self: flex-end;
+  margin: 1rem 2rem 0 0;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+}
