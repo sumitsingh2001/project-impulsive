@@ -17,10 +17,18 @@
     <section class="section center">
       <form action="" class="login center">
         <h2>Login</h2>
-        <input type="email" placeholder="E-mail" />
-        <input type="password" placeholder="Password" />
-        <input type="submit" value="Sign Up" />
+        <input type="email" placeholder="E-mail" id="email" required />
+        <input type="password" placeholder="Password" id="pass" required />
+        <input type="submit" onclick="login()" value="Sign Up" />
       </form>
     </section>
+    <script>
+      function login() {
+        var email = document.getElementById("email").value
+        var pass = document.getElementById("pass").value
+
+        // window.location.href = "book-page.html"
+      }
+    </script>
   </body>
 </html>
